@@ -24,13 +24,13 @@ Pass 1 — First draft
 
 One line per clause. Status values: `not started` | `drafted from belief` | `drafted-unconfirmed` | `refined by research` | `evidenced by interview` | `stable`.
 
-- Target customer: not started
-- Need or opportunity: not started
-- Product name: not started
-- Product category: not started
-- Key benefit: not started
-- Primary competitive alternative: not started
-- Primary differentiation: not started
+- Target customer: drafted from belief
+- Need or opportunity: drafted from belief
+- Product name: drafted from belief
+- Product category: drafted from belief
+- Key benefit: drafted from belief
+- Primary competitive alternative: drafted from belief
+- Primary differentiation: drafted from belief
 
 ## Completed checkpoints
 
