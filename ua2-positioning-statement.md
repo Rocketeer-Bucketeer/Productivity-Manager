@@ -43,6 +43,7 @@ One subsection per clause. Updated continuously across all five passes.
 - **Evidence found:**
   - Behaves like a self-directed student who wants to perform well but needs support making work feel actionable.
   - Likely values structure, accountability, and visible progress more than pure scheduling flexibility.
+  - Interview 1: the user currently tracks assignments in a planner or by memory, suggesting a low-friction, simple workflow is more important than a complex planning system.
 - **Alternatives considered:**
   - A general productivity user who just wants a calendar or a task list.
   - A student who is not strongly motivated by streaks or game-like progress.
@@ -56,6 +57,7 @@ One subsection per clause. Updated continuously across all five passes.
 - **Evidence found:**
   - The user’s problem appears to be follow-through consistency, not merely task capture.
   - The opportunity is strongest where motivation and structure need to reinforce each other.
+  - Interview 1: the student said the workload feels too large for the time available and that the work itself is hard to do, which points to a need for momentum support rather than just reminders.
 - **Alternatives considered:** Standard planners, paper calendars, generic to-do apps, and sticky-note systems.
 - **What would change my mind:** If the user already reports that a planner or study-system reliably carries them through execution without extra motivation.
 
@@ -86,6 +88,7 @@ One subsection per clause. Updated continuously across all five passes.
 - **Evidence found:**
   - The user is likely seeking a psychological lift as much as a planning tool.
   - A visible streak or reward loop can make execution more repeatable.
+  - Interview 1: the student explicitly said visible progress, streaks, or rewards would help them stay consistent.
 - **Alternatives considered:** Better reminders, more detailed scheduling, stricter deadlines.
 - **What would change my mind:** If the real pain point is mostly organization rather than motivation.
 
@@ -96,6 +99,7 @@ One subsection per clause. Updated continuously across all five passes.
 - **Evidence found:**
   - Students already have access to general productivity tools, yet still struggle with follow-through.
   - The gap is likely in motivational reinforcement and academic context, not in raw planning capability.
+  - Interview 1: the student described existing apps as ugly and hard to use, and said they would only keep using a tool if it were easy to use and free.
 - **Alternatives considered:** Paper planners, digital calendars, study timer apps, and classroom management tools.
 - **What would change my mind:** If the user’s main competition is a more specialized academic planner rather than a general productivity tool.
 
@@ -106,5 +110,6 @@ One subsection per clause. Updated continuously across all five passes.
 - **Evidence found:**
   - The user’s challenge seems to sit at the intersection of planning and motivation.
   - That means the strongest product moat is not just organization, but reinforcing consistent progress in a way that feels meaningful for students.
+  - Interview 1: the student’s strongest product signals are simple usability, low cost, and visible progress/reward feedback.
 - **Alternatives considered:** Reward systems in habit apps, school-management apps, and gamified productivity tools.
 - **What would change my mind:** If users already have a strong, low-friction system that naturally provides motivation without a gamified layer.
