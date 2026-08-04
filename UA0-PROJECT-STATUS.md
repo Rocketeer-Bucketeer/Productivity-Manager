@@ -18,34 +18,37 @@ Stage 1 — Discovery
 
 ## Current pass or activity
 
-Pass 1 — First draft
+Pass 4 — User interviews and revision
 
 ## Positioning statement status
 
 One line per clause. Status values: `not started` | `drafted from belief` | `drafted-unconfirmed` | `refined by research` | `evidenced by interview` | `stable`.
 
-- Target customer: drafted from belief
-- Need or opportunity: drafted from belief
+- Target customer: evidenced by interview
+- Need or opportunity: evidenced by interview
 - Product name: drafted from belief
 - Product category: drafted from belief
-- Key benefit: drafted from belief
-- Primary competitive alternative: drafted from belief
-- Primary differentiation: drafted from belief
+- Key benefit: evidenced by interview
+- Primary competitive alternative: evidenced by interview
+- Primary differentiation: evidenced by interview
 
 ## Completed checkpoints
 
 A running list. Each entry is a single line: what was completed, and the date.
 
-- (none yet)
+- Pass 1 — First draft, all seven clauses drafted from belief
+- Interview 1 (Stev) — evidenced Target customer, Need or opportunity, Key benefit, Primary competitive alternative, Primary differentiation
+- Interview 2 (null, 2026-08-03) — confirmed Need or opportunity, expanded Primary competitive alternative (AI-generated task lists), complicated and revised Key benefit and Primary differentiation (reward mechanics decay in engagement over time; visible structure is the durable core, not the reward skin)
 
 ## Known gaps
 
 Things the student and agent have flagged as not yet addressed. Carried forward across sessions until resolved or explicitly dropped.
 
-- No user interviews conducted yet — all clauses will be drafted from belief initially
-- Need to validate whether the target customer experiences the same frustration Ian did
+- Product name and Product category remain drafted from belief — expected to stay thin on interview evidence, but not yet deliberately addressed
+- No interview has yet asked "anyone else worth talking to?" of either Stev or null — referral recruiting not yet attempted
+- Falsification commitments for Interviews 1–2 were reconstructed after the fact rather than written in advance (see process note in `ua4-interview-plan.md`); Interview 3 should write commitments first
 
 ## Last updated
 
-- **Date:** 2026-06-22
-- **By:** ua-orchestrator
+- **Date:** 2026-08-03
+- **By:** positioning-statement

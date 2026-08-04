@@ -10,9 +10,9 @@ The statement at the top is the public-facing artifact — short, clean, one par
 
 > For a high school student who wants to stay on top of schoolwork but struggles to turn assignments into consistent follow-through,
 > the StudySprint is a gamified academic task planner
-> that turns deadlines, study routines, and assignment progress into visible momentum and motivating streaks.
-> Unlike generic to-do apps or static planners,
-> our product combines school-specific structure with reward-driven progress to help students keep moving when workload gets heavy.
+> that turns deadlines, study routines, and assignment progress into visible progress you can act on right now — the structure carries it, not the streak.
+> Unlike generic to-do apps, static planners, or AI-generated task lists,
+> our product keeps a live, visible picture of a student's progress — what's due, what's next, how far they've gotten — with streaks and rewards as an on-ramp, not the thing holding it together long-term.
 
 ---
 
@@ -20,13 +20,13 @@ The statement at the top is the public-facing artifact — short, clean, one par
 
 Per-clause status. Mirrors the per-clause status in `UA0-PROJECT-STATUS.md`.
 
-- **Target customer:** drafted from belief
-- **Need or opportunity:** drafted from belief
+- **Target customer:** evidenced by interview
+- **Need or opportunity:** evidenced by interview
 - **Product name:** drafted from belief
 - **Product category:** drafted from belief
-- **Key benefit:** drafted from belief
-- **Primary competitive alternative:** drafted from belief
-- **Primary differentiation:** drafted from belief
+- **Key benefit:** evidenced by interview
+- **Primary competitive alternative:** evidenced by interview
+- **Primary differentiation:** evidenced by interview
 
 Status values: `not started` | `drafted from belief` | `drafted-unconfirmed` | `refined by research` | `evidenced by interview` | `stable`.
 
@@ -43,7 +43,8 @@ One subsection per clause. Updated continuously across all five passes.
 - **Evidence found:**
   - Behaves like a self-directed student who wants to perform well but needs support making work feel actionable.
   - Likely values structure, accountability, and visible progress more than pure scheduling flexibility.
-  - Interview 1: the user currently tracks assignments in a planner or by memory, suggesting a low-friction, simple workflow is more important than a complex planning system.
+  - Interview 1 (Stev): currently tracks assignments in a planner or by memory, suggesting a low-friction, simple workflow is more important than a complex planning system.
+  - Interview 2 (null): also fits the profile — motivated enough to use a calendar and an AI assistant to stay on top of work, but still loses the thread when the tool doesn't hold his attention.
 - **Alternatives considered:**
   - A general productivity user who just wants a calendar or a task list.
   - A student who is not strongly motivated by streaks or game-like progress.
@@ -57,7 +58,8 @@ One subsection per clause. Updated continuously across all five passes.
 - **Evidence found:**
   - The user’s problem appears to be follow-through consistency, not merely task capture.
   - The opportunity is strongest where motivation and structure need to reinforce each other.
-  - Interview 1: the student said the workload feels too large for the time available and that the work itself is hard to do, which points to a need for momentum support rather than just reminders.
+  - Interview 1 (Stev): the workload feels too large for the time available and the work itself is hard to do, pointing to a need for momentum support rather than just reminders.
+  - Interview 2 (null): gets easily distracted specifically because of the "non-engagement" of the calendar he uses — direct support for the idea that a passive checklist loses him, where something visible and current would not.
 - **Alternatives considered:** Standard planners, paper calendars, generic to-do apps, and sticky-note systems.
 - **What would change my mind:** If the user already reports that a planner or study-system reliably carries them through execution without extra motivation.
 
@@ -83,33 +85,36 @@ One subsection per clause. Updated continuously across all five passes.
 
 ### Key benefit
 
-- **Current belief:** It converts assignments and academic routines into visible progress, making follow-through feel easier to sustain.
-- **Basis for the belief:** For a student who is motivated but inconsistent, the most valuable benefit is not just a better list; it is progress that is easy to see and rewarding to maintain.
+- **Current belief:** It turns assignments and academic routines into visible progress that's easy to act on right now — the structure carries it, not the streak.
+- **Basis for the belief:** For a student who is motivated but inconsistent, visible progress lowers the barrier to taking the next step. Interview 2 showed that the reward/streak mechanic itself has a shelf life, so the benefit needs to rest on the visible structure, not on the reward loop staying novel forever.
 - **Evidence found:**
   - The user is likely seeking a psychological lift as much as a planning tool.
-  - A visible streak or reward loop can make execution more repeatable.
-  - Interview 1: the student explicitly said visible progress, streaks, or rewards would help them stay consistent.
-- **Alternatives considered:** Better reminders, more detailed scheduling, stricter deadlines.
-- **What would change my mind:** If the real pain point is mostly organization rather than motivation.
+  - A visible streak or reward loop can make execution more repeatable, at least at first.
+  - Interview 1 (Stev): the student explicitly said visible progress, streaks, or rewards would help them stay consistent.
+  - Interview 2 (null): said streaks/rewards would help "the first times" he used it, but would become boring and unengaging after a while — "like how people move on from a video game to another one." He clarified this isn't about refusing to rely on gamification in principle; it's that the mechanic itself predictably decays in engagement over time.
+- **Alternatives considered:** Better reminders, more detailed scheduling, stricter deadlines. Earlier belief — "makes follow-through feel easier to sustain" — dropped, since a mechanic that reliably goes stale can't be the thing that sustains anything.
+- **What would change my mind:** If the real pain point is mostly organization rather than motivation. Also: if a future interview shows the novelty-decay problem doesn't apply once visible progress itself (not the reward skin) is what's hooking the user.
 
 ### Primary competitive alternative
 
-- **Current belief:** Generic to-do apps such as Todoist, Notion, or Google Tasks.
-- **Basis for the belief:** These products already solve task capture and organization, but they do not naturally support the school-specific context or reward structure that this user seems to need.
+- **Current belief:** Generic to-do apps and planners (Todoist, Notion, Google Tasks) — and, per Interview 2, AI tools used to generate task lists on demand.
+- **Basis for the belief:** These already solve task capture, but none of them keep a live, visible state of progress — they show a list, not momentum.
 - **Evidence found:**
   - Students already have access to general productivity tools, yet still struggle with follow-through.
   - The gap is likely in motivational reinforcement and academic context, not in raw planning capability.
-  - Interview 1: the student described existing apps as ugly and hard to use, and said they would only keep using a tool if it were easy to use and free.
+  - Interview 1 (Stev): described existing apps as ugly and hard to use, and said they would only keep using a tool if it were easy to use and free.
+  - Interview 2 (null): uses a calendar *and* asks ChatGPT to generate to-do lists — the alternative set is broader than plain to-do apps. He dislikes that the AI is "too servile": it complies with the request but adds no structure or accountability of its own.
 - **Alternatives considered:** Paper planners, digital calendars, study timer apps, and classroom management tools.
-- **What would change my mind:** If the user’s main competition is a more specialized academic planner rather than a general productivity tool.
+- **What would change my mind:** If the user’s main competition is a more specialized academic planner rather than a general productivity tool or AI assistant.
 
 ### Primary differentiation
 
-- **Current belief:** Our product combines academic planning with streak-based motivation and progress rewards, making follow-through feel more structured and emotionally motivating than a plain task list.
-- **Basis for the belief:** The target customer needs both a system and a reason to keep using it. A generic planner handles the first, but not the second.
+- **Current belief:** Our product keeps a live, visible picture of a student's progress — what's due, what's next, how far they've gotten — with streaks and rewards as an on-ramp, not the thing holding it together long-term.
+- **Basis for the belief:** The target customer needs a system that shows real state, not just a list. The reward layer helps get them started, but Interview 2 showed the reward mechanic itself decays in engagement over time — so the visible structure has to be what carries it after the novelty wears off.
 - **Evidence found:**
-  - The user’s challenge seems to sit at the intersection of planning and motivation.
-  - That means the strongest product moat is not just organization, but reinforcing consistent progress in a way that feels meaningful for students.
-  - Interview 1: the student’s strongest product signals are simple usability, low cost, and visible progress/reward feedback.
-- **Alternatives considered:** Reward systems in habit apps, school-management apps, and gamified productivity tools.
-- **What would change my mind:** If users already have a strong, low-friction system that naturally provides motivation without a gamified layer.
+  - The user's challenge seems to sit at the intersection of planning and motivation.
+  - Interview 1 (Stev): strongest product signals are simple usability, low cost, and visible progress/reward feedback.
+  - Interview 2 (null): streaks/rewards help "the first times" but become boring after a while, "like how people move on from a video game to another one" — a mechanic that decays on a schedule can't be the primary moat.
+  - Interview 2 (null): dislikes that AI to-do assistants are "too servile" — they comply but add no structure. Read together with the novelty-decay point, the moat looks like it's the structure itself, not any one motivational skin on top of it.
+- **Alternatives considered:** Earlier belief — "combines academic planning with streak-based motivation and progress rewards" as the primary differentiator — dropped in favor of visible structure as the core, with rewards as a supporting on-ramp. Also considered: reward systems in habit apps, school-management apps, gamified productivity tools generally.
+- **What would change my mind:** If a future interview shows the reward loop itself — not the visible-state structure — is what actually retains users long-term, this should revert.
