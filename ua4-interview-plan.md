@@ -19,16 +19,16 @@ Produced in Pass 3 of Stage 1. Names who the student is interviewing and why, th
   - [x] Has tried to solve the problem (planner/memory)
   - [ ] Unhappy with workaround — not clearly established
 
-### Interview 3 — [TBD, sourced from group chat callout]
+### Interview 3 — tanman
 
-- **Who:** Not yet identified — a callout was posted in a group chat of students ("motivated to do well, some have trouble keeping track and staying engaged"); waiting on a real bite, then following up 1:1.
-- **Why worth talking to:** The group skews toward the target-customer profile (motivated but inconsistent), better odds than a cold contact.
-- **Clauses their input most affects:** Need or opportunity (does the "passive tool loses attention" theory generalize beyond null?), Key benefit / Primary differentiation (does the reward-mechanic novelty-decay problem generalize beyond null, or was that a one-off?).
-- **Earlyvangelist filter:** Check live during the conversation before treating their answers as strong evidence:
-  - [ ] Has the problem
-  - [ ] Knows they have the problem
-  - [ ] Has tried to solve the problem
-  - [ ] Is unhappy with their workaround
+- **Who:** tanman, sourced from the group chat callout ("motivated to do well, some have trouble keeping track and staying engaged").
+- **Why worth talking to:** Structured current method (calendar + Canvas, splits work across available days) — a different profile than Stev or null, useful contrast case.
+- **Clauses their input most affects:** Need or opportunity, Key benefit / Primary differentiation (novelty-decay thread), Primary competitive alternative (Canvas).
+- **Earlyvangelist filter:**
+  - [x] Has the problem — forgot a project entirely while distracted by games
+  - [x] Knows they have the problem — describes it directly
+  - [x] Has tried to solve the problem — calendar, Canvas, and deliberately removing distractions
+  - [ ] Unhappy with workaround — not clearly established; he didn't complain about the calendar or Canvas, only about his own focus lapsing
 
 ### Interview 2 — null
 
@@ -80,7 +80,7 @@ Not yet reached with either interviewee — no solution/mockup has been shown. S
 
 **Reconstructed after the fact for Interviews 1–2 (see process note above). Written in advance starting with Interview 3.**
 
-### Interview 3 — [TBD]
+### Interview 3 — tanman
 
 #### Need or opportunity
 
@@ -88,7 +88,7 @@ Not yet reached with either interviewee — no solution/mockup has been shown. S
 - **Confirms it if:** Describes losing track of work specifically because a passive/low-engagement tool doesn't hold their attention — same shape as null's answer.
 - **Refutes it if:** Says their main problem is something unrelated to passivity (e.g., not knowing what's due, or a purely time-management issue).
 - **Complicates it if:** Confirms the passive-tool problem but for a different underlying reason than null's (e.g., not distraction, but forgetting).
-- **What actually happened:** [fill in after]
+- **What actually happened:** His method is structured (checks the calendar, splits work across the days available) — the tool itself isn't the complaint. He fell behind because "i was playing games and completely forgot about the project," and recovered by "makihng sure that no distractions [were] around me and focused on working." **Complicates, doesn't confirm:** the drop-off wasn't caused by a boring/passive tool, it was an unrelated activity displacing the work from his attention entirely. Points toward "stay visible/salient enough to interrupt drift" as a mechanism, alongside or instead of "be more engaging than a calendar."
 
 #### Key benefit / Primary differentiation (the novelty-decay thread)
 
@@ -96,7 +96,13 @@ Not yet reached with either interviewee — no solution/mockup has been shown. S
 - **Confirms it if:** Independently describes having lost interest in a streak/reward system over time, without being prompted with the "video game" framing.
 - **Refutes it if:** Describes a streak/reward system they've stuck with for a long time without losing interest.
 - **Complicates it if:** Says it depends on the type of reward, or that they've never really used one long enough to know.
-- **What actually happened:** [fill in after]
+- **What actually happened:** Unprompted: "i do duolingo and overtime it get s boring but sometimes its fun. when i am learning smt new its gets very interesting." **Confirmed** — a second, independent data point for the same pattern null described: engagement tracks novelty of content, not the streak/reward mechanism itself. Sharpens the lesson from "don't rely on rewards long-term" to "the underlying content/structure needs to keep feeling new," which is how Duolingo itself tries to fight this (new skill trees, leagues, etc.).
+
+#### Unplanned finding — new competitive alternative
+
+- tanman mentioned checking Canvas (school LMS) "just to see how much time I have left" — a competitive alternative not previously recorded (Todoist/Notion/Google Tasks, AI-generated lists, and now school LMS platforms).
+
+> **Process gap:** the closing didn't include "is there anyone else you think deals with this?" — worth a quick follow-up DM if the referral chain is still wanted.
 
 ### Interview 1 — Stev
 
