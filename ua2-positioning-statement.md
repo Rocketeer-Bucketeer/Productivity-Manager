@@ -9,7 +9,7 @@ The statement at the top is the public-facing artifact — short, clean, one par
 ## Statement
 
 > For a high school student who wants to stay on top of schoolwork but struggles to turn assignments into consistent follow-through,
-> the StudySprint is a gamified academic task planner
+> the OnTrack is an organized, engaging assignment tracker
 > that turns deadlines, study routines, and assignment progress into visible progress you can act on right now — the structure carries it, not the streak.
 > Unlike generic to-do apps, static planners, or AI-generated task lists,
 > our product keeps a live, visible picture of a student's progress — what's due, what's next, how far they've gotten — with streaks and rewards as an on-ramp, not the thing holding it together long-term.
@@ -22,8 +22,8 @@ Per-clause status. Mirrors the per-clause status in `UA0-PROJECT-STATUS.md`.
 
 - **Target customer:** evidenced by interview
 - **Need or opportunity:** evidenced by interview
-- **Product name:** drafted from belief
-- **Product category:** drafted from belief
+- **Product name:** stable
+- **Product category:** evidenced by interview
 - **Key benefit:** evidenced by interview
 - **Primary competitive alternative:** evidenced by interview
 - **Primary differentiation:** evidenced by interview
@@ -66,22 +66,22 @@ One subsection per clause. Updated continuously across all five passes.
 
 ### Product name
 
-- **Current belief:** WorkSprinter
-- **Basis for the belief:** The name signals both academic focus and momentum-building action, which fits a product centered on school tasks and streak-style progress.
+- **Current belief:** OnTrack
+- **Basis for the belief:** Says the actual benefit plainly — always knowing where you stand — instead of leaning on sprint/streak framing. That shift matters because Interviews 2 and 3 showed the reward/streak mechanic is a bootstrap, not the durable part; the name shouldn't promise something the product's real moat isn't.
 - **Evidence found:**
-- **Alternatives considered:** StudyQuest, GradeFlow, TaskStreak, ScholarLoop.
-- **What would change my mind:** If a more descriptive or more brandable name better fits the product’s real interface and audience.
+- **Alternatives considered:** StudySprint (placeholder used before this decision) and WorkSprinter (an earlier internal belief) — both leaned on sprint/streak framing and were dropped for that reason. Also considered: StudyQuest, GradeFlow, TaskStreak, ScholarLoop, Pulse/StudyPulse, NextUp, Momentum, Streakline.
+- **What would change my mind:** If a more descriptive or more brandable name better fits the product's real interface and audience.
 
 > Mostly internal; thin evidence here is acceptable.
 
 ### Product category
 
-- **Current belief:** A gamified academic task planner.
-- **Basis for the belief:** The product is primarily about helping students manage school tasks while making progress visible and motivating through a lightweight game-like loop.
+- **Current belief:** An organized, engaging assignment tracker.
+- **Basis for the belief:** Gamification is a supporting feature, not the category itself. Interviews 2 and 3 showed the reward/streak mechanic decays in engagement over time, so the category needs to center on what's durable — a well-organized, engaging tracker — rather than lead with "gamified." Independently agreed on after discussing with a project partner.
 - **Evidence found:**
-  - The core workflow is task tracking, but it is centered on academic follow-through and momentum.
-  - The key differentiator is not raw planning features alone, but progress encouragement tied to school execution.
-- **Alternatives considered:** School planner, study app, productivity tracker, habit app.
+  - The core workflow is task tracking, centered on academic follow-through and momentum.
+  - Interview 2 (null) and Interview 3 (tanman) both showed the reward/streak layer's engagement fades over time — supports "engaging" as a quality of the tracker itself (visible, current, well-organized), not "gamified" as the headline category.
+- **Alternatives considered:** "A gamified academic task planner" — the original belief, dropped for overselling the reward mechanic as the category. Also considered: school planner, study app, productivity tracker, habit app.
 - **What would change my mind:** If the app ends up focusing more on general life productivity than academic work.
 
 ### Key benefit
