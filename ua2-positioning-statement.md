@@ -10,7 +10,7 @@ The statement at the top is the public-facing artifact — short, clean, one par
 
 > For a high school student who wants to stay on top of schoolwork but struggles to turn assignments into consistent follow-through,
 > the OnTrack is an organized, engaging assignment tracker
-> that turns deadlines, study routines, and assignment progress into visible progress you can act on right now — the structure carries it, not the streak.
+> that turns deadlines, study routines, and assignment progress into visible progress you can act on right now — the structure carries it, not the streak — with tools to remove the distractions most likely to pull you off track.
 > Unlike generic to-do apps, static planners, or AI-generated task lists,
 > our product keeps a live, visible picture of a student's progress — what's due, what's next, how far they've gotten — with streaks and rewards as an on-ramp, not the thing holding it together long-term.
 
@@ -86,16 +86,17 @@ One subsection per clause. Updated continuously across all five passes.
 
 ### Key benefit
 
-- **Current belief:** It turns assignments and academic routines into visible progress that's easy to act on right now — the structure carries it, not the streak.
-- **Basis for the belief:** For a student who is motivated but inconsistent, visible progress lowers the barrier to taking the next step. Interview 2 showed that the reward/streak mechanic itself has a shelf life, so the benefit needs to rest on the visible structure, not on the reward loop staying novel forever.
+- **Current belief:** It turns assignments and academic routines into visible progress that's easy to act on right now — the structure carries it, not the streak — with tools to remove the distractions most likely to pull you off track.
+- **Basis for the belief:** For a student who is motivated but inconsistent, visible progress lowers the barrier to taking the next step. Interview 2 showed that the reward/streak mechanic itself has a shelf life, so the benefit needs to rest on the visible structure, not on the reward loop staying novel forever. The distraction-removal piece is added as a secondary, less-certain part of the same benefit — evidenced by only one interview, and as a *need*, not yet as a *feature* anyone has reacted to. It's kept behind "visible progress" in the sentence deliberately to reflect that imbalance.
 - **Evidence found:**
   - The user is likely seeking a psychological lift as much as a planning tool.
   - A visible streak or reward loop can make execution more repeatable, at least at first.
   - Interview 1 (Stev): the student explicitly said visible progress, streaks, or rewards would help them stay consistent.
   - Interview 2 (null): said streaks/rewards would help "the first times" he used it, but would become boring and unengaging after a while — "like how people move on from a video game to another one." He clarified this isn't about refusing to rely on gamification in principle; it's that the mechanic itself predictably decays in engagement over time.
   - Interview 3 (tanman), independently and unprompted: about Duolingo, "overtime it get s boring but sometimes its fun. when i am learning smt new its gets very interesting." A second, separate person describing the same pattern — engagement tracks novelty of content, not the streak/reward mechanism itself.
-- **Alternatives considered:** Better reminders, more detailed scheduling, stricter deadlines. Earlier belief — "makes follow-through feel easier to sustain" — dropped, since a mechanic that reliably goes stale can't be the thing that sustains anything.
-- **What would change my mind:** If the real pain point is mostly organization rather than motivation. Also: if a future interview shows the novelty-decay problem doesn't apply once visible progress itself (not the reward skin) is what's hooking the user.
+  - Interview 3 (tanman), single-sourced: fell behind because "i was playing games and completely forgot about the project," and recovered by "makihng sure that no distractions [were] around me." A real, self-identified need for distraction removal — but only from one person, and nobody has yet reacted to the actual website-blocker concept (a partner's suggestion, not yet interview-tested).
+- **Alternatives considered:** Better reminders, more detailed scheduling, stricter deadlines. Earlier belief — "makes follow-through feel easier to sustain" — dropped, since a mechanic that reliably goes stale can't be the thing that sustains anything. Also considered treating distraction-removal as a fully equal partner in the sentence rather than a secondary piece — dropped for overstating evidence that's currently thinner than the visible-progress finding.
+- **What would change my mind:** If the real pain point is mostly organization rather than motivation. Also: if a future interview shows the novelty-decay problem doesn't apply once visible progress itself (not the reward skin) is what's hooking the user. On the distraction piece specifically: if a future interview shows this need isn't shared by other students, or if someone reacts badly to an actual website-blocker concept, this should be walked back out of the headline sentence.
 
 ### Primary competitive alternative
 
@@ -122,3 +123,5 @@ One subsection per clause. Updated continuously across all five passes.
   - Interview 3 (tanman): independently described the same Duolingo novelty-decay pattern, unprompted. Two separate people now describe reward mechanics losing their pull over time — this is no longer a one-off from null.
 - **Alternatives considered:** Earlier belief — "combines academic planning with streak-based motivation and progress rewards" as the primary differentiator — dropped in favor of visible structure as the core, with rewards as a supporting on-ramp. Also considered: reward systems in habit apps, school-management apps, gamified productivity tools generally.
 - **What would change my mind:** If a future interview shows the reward loop itself — not the visible-state structure — is what actually retains users long-term, this should revert.
+
+

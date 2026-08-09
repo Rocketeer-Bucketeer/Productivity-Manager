@@ -88,35 +88,34 @@ What has been surfaced about FERPA, COPPA, HIPAA, PII, accessibility, or any oth
 
 One subsection per job. Each has the four-question structure plus at least one scenario.
 
-### Job 1 — [short title]
+### Job 1 — Organizing a heavy assignment load
 
-- **JTBD statement:** When I'm [situation], I want to [motivation], so I can [outcome].
-- **How do we know it's a real job:** [specific evidence from Stage 1. A quote, an observation, a workaround witnessed firsthand.]
-- **What people do today:** [step by step description of the current alternative. Not "they use a spreadsheet" — what columns, which sheet, what they do when the data doesn't fit.]
-- **Why has the current way persisted:** [what it does well, what users would lose by switching. Chesterton's fence territory.]
-
-#### Scenario 1.1 — [short title]
-
-A narrative. The user starts with "I have this need" and ends with "my need is met." Includes at least one branch where something doesn't work the first time.
-
-> [User] is doing [activity]. They need to [need]. They open [system / current alternative] and [first step]. Then [second step]. **Something goes wrong:** [thing]. They [recovery action]. Eventually [need is met or not].
-
-**Reads back against positioning statement:** Does this story actually deliver the **key benefit** named in `ua2-positioning-statement.md`? [yes / no, with note]
-
-#### Scenario 1.2 — [optional second scenario for the same job]
-
-> [Narrative]
-
-### Job 2 — [short title]
-
-- **JTBD statement:**
-- **How do we know it's a real job:**
+- **JTBD statement:** When I'm facing a heavy workload with assignments piling up, I want an easy way to organize and see what's next, so I can get through the overwhelming stretch without falling behind.
+- **How do we know it's a real job:** Stev directly said the workload feels too large for the time available and the work itself is hard to do — an unprompted complaint. Tanman already does a manual version of this job: he checks his calendar to see how many days he has left, then splits the work across those days — a real, active behavior under exactly this situation.
 - **What people do today:**
-- **Why has the current way persisted:**
+  - Stev: tracks in a planner or by memory, no described active splitting strategy.
+  - Tanman: opens his calendar, counts the days available before the deadline, manually divides the work across them.
+  - null: uses a calendar and asks ChatGPT to generate a task breakdown — but has to redo it from scratch every time, since nothing persists.
+- **Why has the current way persisted:** Manual splitting (tanman) survives because it costs nothing — it's just a calendar he already has open. ChatGPT-list generation (null) survives because it's genuinely good at producing a reasonable breakdown on request, even without tracking. Both are "good enough to start with," which is exactly why nobody's switched away from them yet.
 
-#### Scenario 2.1 — [short title]
+#### Scenario 1.1 — Recovering after a distraction wipes out a day
 
-> [Narrative]
+> A student opens OnTrack on Sunday night after realizing three assignments and a test are due across the coming week. They enter each assignment with its due date; OnTrack splits the work into daily chunks and shows a live, visible progress state. Monday and Tuesday go fine — they check off each day's chunk and watch the progress state move. **Something goes wrong:** midweek, they get pulled into a game for a few hours and forget to open the app entirely. By the time they remember, a full day's planned chunk is sitting untouched. They open OnTrack and immediately see the gap — the plan is visibly behind where it should be, not just quietly forgotten like it would be with a plain calendar. They redistribute the missed chunk across the remaining days and finish the last assignment the night before it's due.
+
+**Reads back against positioning statement:** Mostly yes — the visible, live structure is what surfaces the gap and drives the recovery, not a streak. Worth being honest about a limit: this scenario shows the app helping *after* the student remembers to open it — it doesn't stop them from getting pulled into the game in the first place. That's exactly the hole the website-blocker idea would need to fill, which argues for taking that feature seriously in Stage 3 rather than treating it as a nice-to-have.
+
+### Job 2 — Avoiding distraction while trying to focus
+
+- **JTBD statement:** When I'm trying to focus on assignments, I want to keep myself from getting pulled into distracting sites or apps, so I can actually get the work done instead of drifting away.
+- **How do we know it's a real job:** Tanman directly described this happening — "i was playing games and completely forgot about the project" — and his own recovery method was "makihng sure that no distractions [were] around me and focused on working." That's a self-identified need he already acts on manually. **Caveat:** this is currently single-sourced (tanman only); Stev and null didn't describe this specific coping behavior, so it shouldn't be treated as universally confirmed the way Job 1 is.
+- **What people do today:** Tanman manually removes himself from distracting situations after the fact — pure self-discipline, no tool support, and only after he's already lost time to the distraction.
+- **Why has the current way persisted:** It costs nothing and requires no new tool — it's just willpower. But it's inconsistent, which is exactly why he needed to "recover" in the first place rather than never losing the time at all.
+
+#### Scenario 2.1 — Blocking the site before it becomes a problem
+
+> A student sits down to start homework and knows from experience they'll end up on a game site if they're not careful. Before starting, they open OnTrack's focus mode and add the game site to a self-imposed block list for the next two hours. They start working. **Something goes wrong:** twenty minutes in, they get the urge to check the site anyway and try to open it — it's blocked, and instead of giving up, they get mildly annoyed but stay on the assignment since the path of least resistance is now just to keep working. They finish the two-hour block having made real progress, then unblock the site themselves afterward.
+
+**Reads back against positioning statement:** Partial fit. The positioning statement's key benefit is about *visible progress*, not *distraction prevention* — this scenario delivers a real, evidenced need, but it's a different mechanism than what's currently written in the paragraph. Worth flagging rather than quietly stretching the key benefit to cover it: either this feature is a deliberate scope expansion beyond the current positioning statement, or it stays framed as a supporting feature that serves the same underlying "visible momentum" need from a different angle (removing what interrupts momentum, rather than showing momentum). Not resolved here — carried to "Open from this stage."
 
 ---
 
@@ -128,3 +127,4 @@ Things flagged during Stage 2 that don't yet have a home — for the student to 
 - Partner-suggested extension idea: a self-imposed website blocker (user blocks their own distracting sites, no other party involved). Maps directly onto tanman's finding (distraction from unrelated activity, not tool boredom) — worth formalizing as a job in Section 3 with that evidence attached, rather than designing it now.
 - Canvas auto-carryover idea: a connection/integration so assignments posted on Canvas could flow into OnTrack automatically instead of manual entry. Not really a "convention" so much as a feature idea — worth exploring in Stage 3, since Canvas is already something tanman relies on and manual re-entry is exactly the kind of friction that kills follow-through.
 - Not yet addressed: whether a school's IT/policy stance would matter for the Canvas integration idea — e.g., whether a student can authorize their own Canvas API access without needing school approval. Worth checking before treating that feature as a given.
+- The website-blocker job (Job 2) doesn't cleanly deliver the key benefit as currently written ("visible progress") — it's a distraction-prevention mechanism, not a progress-visibility one. Unresolved: is this a deliberate scope expansion of the positioning statement, or does it stay framed as a supporting feature serving the same underlying need from a different angle? Worth a real conversation with `positioning-statement` before Stage 3, not a quiet stretch of the existing wording.
