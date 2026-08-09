@@ -18,7 +18,7 @@ Stage 2 — Analysis
 
 ## Current pass or activity
 
-Stakeholders and users (Section 2 of `ua5-stage-2-analysis.md`)
+Jobs-to-be-done and scenarios (Section 3 of `ua5-stage-2-analysis.md`)
 
 ## Positioning statement status
 
@@ -43,6 +43,7 @@ A running list. Each entry is a single line: what was completed, and the date.
 - Product name and Product category addressed (2026-08-06) — name changed from placeholder StudySprint/WorkSprinter to OnTrack (marked stable, internal decision); category changed from "gamified academic task planner" to "organized, engaging assignment tracker," demoting gamification to a supporting feature per the novelty-decay evidence from Interviews 2–3.
 - **Stage 1 — Discovery complete (2026-08-06).** All seven positioning-statement clauses are "evidenced by interview" or "stable"; none remain "drafted from belief" or "drafted-unconfirmed". Verified against `ua2-positioning-statement.md` directly by the orchestrator before advancing.
 - Stage 2, Section 1 — Landscape (2026-08-06): adjacent products (Google Tasks/Trello/Todoist/Notion, ChatGPT lists, Canvas, plus tonal references Epic Todo List/Duolingo/Zombies Run), category (planner, freemium resolution to the free-vs-feature-heavy tension), and inherited conventions (checkboxes kept, "checked task just sits there" broken on purpose, calendar view kept) are filled in. No open-source candidate identified yet — flagged as an open item. Two feature ideas surfaced (self-imposed website blocker, Canvas auto-carryover) and deferred to Section 3 / Stage 3 rather than designed now.
+- Stage 2, Section 2 — Stakeholders and users (2026-08-09): stakeholders table (teacher, parent, school) filled in; client/user distinction marked N/A (self-idea path). User recap confirms one primary type, no secondary segment. Compliance pass surfaced PII/token handling for the deferred Canvas feature, accessibility commitments (screen readers, colorblind-friendly design, reduced-motion/no-flashing-lights mode, low-end device performance), FERPA and COPPA both noted as low-risk for now.
 
 ## Known gaps
 

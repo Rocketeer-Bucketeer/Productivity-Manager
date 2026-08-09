@@ -52,8 +52,9 @@ Everyone with a stake in whether the system succeeds beyond the users. Most stak
 
 | Stakeholder | Stake | Their version of "success" |
 |---|---|---|
-| [name or role] | [what they care about] | [what would make this stakeholder happy] |
-| [name or role] | … | … |
+| Teacher | Never sees the app directly, but benefits if it works | More assignments turned in on time — a higher on-time submission rate across their students |
+| Parent | Wants their child to do well in school and be organized about it | Enhanced academic and organizational performance from their child — better grades, less scrambling |
+| School (as an institution) | Mostly redundant with the teacher row, but distinct in one way: aggregate student performance on state tests affects the school itself (ratings, funding, reputation) | Improved state test performance among students who use tools like OnTrack |
 
 For client-path projects: explicitly name the distinction between the client (stakeholder) and the people the client serves (users). Even when the client is enthusiastic about the user's needs.
 
@@ -66,15 +67,20 @@ For client-path projects: explicitly name the distinction between the client (st
 
 The user picture from Stage 1 with any updates Stage 2 work surfaced.
 
-- **Primary user type:** [who]
-- **Secondary user types (if any):** [who]
-- **What's been added or revised since Stage 1:** [bullet list]
+- **Primary user type:** Motivated-but-inconsistent high school student (from Stage 1 positioning statement) — no separate segment needed; even distraction-heavy cases like tanman fold into this same type rather than forming their own.
+- **Secondary user types (if any):** None identified.
+- **What's been added or revised since Stage 1:**
+  - Broadened understanding of *why* drop-off happens — not just low engagement (null) but salience/interruption from unrelated distractions (tanman). Same user type, two different failure modes.
+  - The self-imposed website-blocker idea responds directly to the interruption/salience failure mode.
 
 ### Compliance and accessibility considerations
 
 What has been surfaced about FERPA, COPPA, HIPAA, PII, accessibility, or any other regulatory / safety constraint relevant to the project. Capture in plain language; the student is not producing a compliance document.
 
-- [constraint] — [how it applies; how the project will handle it]
+- **PII / data handling:** The core app doesn't need to collect personal information — just assignments and due dates. The one exception is the (deferred) Canvas auto-carryover feature: if built, it requires the student to authorize access to their real Canvas account, meaning an access token tied to a real school account and assignment data pulled from a school system. Not urgent now since that feature is deferred to Stage 3, but flagged so it isn't treated as "no data handling needed" once it's actually built.
+- **Accessibility (WCAG-adjacent):** Student has already identified several real considerations — screen reader support, colorblind-friendly design, and a reduced-motion / no-flashing-lights mode in case any future feature uses flashing effects (photosensitive seizure risk). Also raised device performance — the app shouldn't require a high-end computer to run, which is an equity concern as much as a technical one. None of these are designed yet; captured here as commitments to carry into Stage 3.
+- **FERPA:** Not directly triggered by the core app (it's a personal student tool, not a school-run system holding official education records), but worth keeping in mind if the Canvas integration ships, since that touches data that originates from a school's system.
+- **COPPA:** Unlikely to apply — target users are high schoolers, generally 14+, not under 13. Not flagged as an active concern, but noted in case an edge case (a younger student) comes up later.
 
 ---
 
@@ -121,3 +127,4 @@ Things flagged during Stage 2 that don't yet have a home — for the student to 
 - No open-source project has actually been looked at yet — worth a real search before Stage 3, since one might reveal conventions or a starting point worth using.
 - Partner-suggested extension idea: a self-imposed website blocker (user blocks their own distracting sites, no other party involved). Maps directly onto tanman's finding (distraction from unrelated activity, not tool boredom) — worth formalizing as a job in Section 3 with that evidence attached, rather than designing it now.
 - Canvas auto-carryover idea: a connection/integration so assignments posted on Canvas could flow into OnTrack automatically instead of manual entry. Not really a "convention" so much as a feature idea — worth exploring in Stage 3, since Canvas is already something tanman relies on and manual re-entry is exactly the kind of friction that kills follow-through.
+- Not yet addressed: whether a school's IT/policy stance would matter for the Canvas integration idea — e.g., whether a student can authorize their own Canvas API access without needing school approval. Worth checking before treating that feature as a given.
