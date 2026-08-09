@@ -18,7 +18,7 @@ Stage 2 — Analysis
 
 ## Current pass or activity
 
-Landscape (Section 1 of `ua5-stage-2-analysis.md`)
+Stakeholders and users (Section 2 of `ua5-stage-2-analysis.md`)
 
 ## Positioning statement status
 
@@ -42,6 +42,7 @@ A running list. Each entry is a single line: what was completed, and the date.
 - Interview 3 (tanman, 2026-08-04) — complicated Need or opportunity (drop-off can be salience/interruption, not just engagement — broadened basis for belief), expanded Primary competitive alternative (Canvas/school LMS), independently reconfirmed the novelty-decay finding behind Key benefit and Primary differentiation (kept at "evidenced by interview", not yet "stable" — one more confirming interview would make that call easy)
 - Product name and Product category addressed (2026-08-06) — name changed from placeholder StudySprint/WorkSprinter to OnTrack (marked stable, internal decision); category changed from "gamified academic task planner" to "organized, engaging assignment tracker," demoting gamification to a supporting feature per the novelty-decay evidence from Interviews 2–3.
 - **Stage 1 — Discovery complete (2026-08-06).** All seven positioning-statement clauses are "evidenced by interview" or "stable"; none remain "drafted from belief" or "drafted-unconfirmed". Verified against `ua2-positioning-statement.md` directly by the orchestrator before advancing.
+- Stage 2, Section 1 — Landscape (2026-08-06): adjacent products (Google Tasks/Trello/Todoist/Notion, ChatGPT lists, Canvas, plus tonal references Epic Todo List/Duolingo/Zombies Run), category (planner, freemium resolution to the free-vs-feature-heavy tension), and inherited conventions (checkboxes kept, "checked task just sits there" broken on purpose, calendar view kept) are filled in. No open-source candidate identified yet — flagged as an open item. Two feature ideas surfaced (self-imposed website blocker, Canvas auto-carryover) and deferred to Section 3 / Stage 3 rather than designed now.
 
 ## Known gaps
 
