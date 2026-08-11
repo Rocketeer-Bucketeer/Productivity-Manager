@@ -18,7 +18,7 @@ Stage 3 — Specification
 
 ## Current pass or activity
 
-Activity 1 — Screen inventory (`ua6-specification.md`)
+Activity 2 — Screen descriptions (`ua6-specification.md`)
 
 ## Positioning statement status
 
@@ -47,6 +47,7 @@ A running list. Each entry is a single line: what was completed, and the date.
 - Mid-Stage-2 positioning statement revision (2026-08-09): Job 2 in Section 3 (avoiding distraction, evidenced by tanman + a partner-suggested website-blocker idea) didn't cleanly fit the Key benefit clause as written. Key benefit broadened to add distraction-removal as an explicit secondary piece, deliberately kept behind "visible progress" in the sentence to reflect that it's single-sourced and not yet feature-tested, unlike the three-interview-deep visible-progress finding. Primary differentiation left unchanged — stays focused purely on visible progress.
 - Stage 2, Section 3 — Jobs-to-be-done and scenarios (2026-08-10): Job 1 (organizing a heavy assignment load, evidenced by Stev and tanman) and Job 2 (avoiding distraction, evidenced by tanman) each have a scenario with a "something goes wrong" branch, read back against the positioning statement. A third job (Canvas auto-carryover) was considered but judged unnecessary for coverage — noted as available for Stage 3 if needed. **All three sections of `ua5-stage-2-analysis.md` are now filled in.**
 - **Stage 2 — Analysis complete (2026-08-10).** Verified directly by the orchestrator: all three sections filled in (client/user distinction correctly marked N/A for self-idea path), positioning statement revisited and revised where Section 3 analysis contradicted it, both scenarios have a "goes wrong" branch, compliance/accessibility surfaced and answered. Two stale cross-references in `ua5-stage-2-analysis.md` (an unresolved-looking note that had actually been resolved, a "still to formalize" note for a job that was already built) corrected for consistency before advancing.
+- Stage 3, Activity 1 — Screen inventory (2026-08-11): 12 screens identified by walking both Stage 2 scenarios plus standard screens (Login/2FA, Settings, Empty state, Error state). Login decision revised mid-activity: OnTrack will use Google login + 2-step verification, which supersedes the earlier "no personal info" Stage 2 compliance note (that note was actually about the narrower Canvas-permission concern) — `ua5-stage-2-analysis.md` updated to match. Assignments screen supports three switchable views (List/Board/Calendar) as one screen entity, not three separate screens.
 
 ## Known gaps
 
@@ -57,5 +58,5 @@ Things the student and agent have flagged as not yet addressed. Carried forward 
 
 ## Last updated
 
-- **Date:** 2026-08-10
-- **By:** ua-orchestrator 
+- **Date:** 2026-08-11
+- **By:** specification 
