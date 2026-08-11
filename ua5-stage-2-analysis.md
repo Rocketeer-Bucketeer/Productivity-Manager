@@ -56,12 +56,7 @@ Everyone with a stake in whether the system succeeds beyond the users. Most stak
 | Parent | Wants their child to do well in school and be organized about it | Enhanced academic and organizational performance from their child — better grades, less scrambling |
 | School (as an institution) | Mostly redundant with the teacher row, but distinct in one way: aggregate student performance on state tests affects the school itself (ratings, funding, reputation) | Improved state test performance among students who use tools like OnTrack |
 
-For client-path projects: explicitly name the distinction between the client (stakeholder) and the people the client serves (users). Even when the client is enthusiastic about the user's needs.
-
-- **Client:** [who]
-- **Users the client serves:** [who]
-- **Where their interests align:** [list]
-- **Where their interests diverge:** [list — these are the friction points]
+**N/A — self-idea path.** There is no client; the student is both the source of the idea and a member of the target user group. This subsection doesn't apply.
 
 ### Users (recap from Stage 1, with Stage 2 updates)
 
@@ -115,7 +110,7 @@ One subsection per job. Each has the four-question structure plus at least one s
 
 > A student sits down to start homework and knows from experience they'll end up on a game site if they're not careful. Before starting, they open OnTrack's focus mode and add the game site to a self-imposed block list for the next two hours. They start working. **Something goes wrong:** twenty minutes in, they get the urge to check the site anyway and try to open it — it's blocked, and instead of giving up, they get mildly annoyed but stay on the assignment since the path of least resistance is now just to keep working. They finish the two-hour block having made real progress, then unblock the site themselves afterward.
 
-**Reads back against positioning statement:** Partial fit. The positioning statement's key benefit is about *visible progress*, not *distraction prevention* — this scenario delivers a real, evidenced need, but it's a different mechanism than what's currently written in the paragraph. Worth flagging rather than quietly stretching the key benefit to cover it: either this feature is a deliberate scope expansion beyond the current positioning statement, or it stays framed as a supporting feature that serves the same underlying "visible momentum" need from a different angle (removing what interrupts momentum, rather than showing momentum). Not resolved here — carried to "Open from this stage."
+**Reads back against positioning statement:** Initially a partial fit only — the key benefit was about *visible progress*, not *distraction prevention*. **Resolved:** Key benefit clause revised to add distraction-removal as an explicit secondary piece, deliberately kept behind "visible progress" in the sentence to reflect thinner (single-sourced, not feature-tested) evidence. See `ua2-positioning-statement.md`.
 
 ---
 
@@ -124,7 +119,7 @@ One subsection per job. Each has the four-question structure plus at least one s
 Things flagged during Stage 2 that don't yet have a home — for the student to revisit later or carry into Stage 3.
 
 - No open-source project has actually been looked at yet — worth a real search before Stage 3, since one might reveal conventions or a starting point worth using.
-- Partner-suggested extension idea: a self-imposed website blocker (user blocks their own distracting sites, no other party involved). Maps directly onto tanman's finding (distraction from unrelated activity, not tool boredom) — worth formalizing as a job in Section 3 with that evidence attached, rather than designing it now.
+- ~~Partner-suggested extension idea: a self-imposed website blocker~~ — **done.** Formalized as Job 2 in Section 3, with a scenario and a positioning-statement revision to match.
 - Canvas auto-carryover idea: a connection/integration so assignments posted on Canvas could flow into OnTrack automatically instead of manual entry. Not really a "convention" so much as a feature idea — worth exploring in Stage 3, since Canvas is already something tanman relies on and manual re-entry is exactly the kind of friction that kills follow-through.
 - Not yet addressed: whether a school's IT/policy stance would matter for the Canvas integration idea — e.g., whether a student can authorize their own Canvas API access without needing school approval. Worth checking before treating that feature as a given.
 - ~~The website-blocker job (Job 2) doesn't cleanly deliver the key benefit as currently written~~ — **resolved.** Key benefit revised to add distraction-removal as an explicit secondary piece, deliberately kept behind "visible progress" to reflect thinner (single-sourced, not feature-tested) evidence.

@@ -14,11 +14,11 @@ It records where the project is in the UA Framework process so any agent invocat
 
 ## Current stage
 
-Stage 2 — Analysis
+Stage 3 — Specification
 
 ## Current pass or activity
 
-Jobs-to-be-done and scenarios (Section 3 of `ua5-stage-2-analysis.md`)
+Activity 1 — Screen inventory (`ua6-specification.md`)
 
 ## Positioning statement status
 
@@ -46,6 +46,7 @@ A running list. Each entry is a single line: what was completed, and the date.
 - Stage 2, Section 2 — Stakeholders and users (2026-08-09): stakeholders table (teacher, parent, school) filled in; client/user distinction marked N/A (self-idea path). User recap confirms one primary type, no secondary segment. Compliance pass surfaced PII/token handling for the deferred Canvas feature, accessibility commitments (screen readers, colorblind-friendly design, reduced-motion/no-flashing-lights mode, low-end device performance), FERPA and COPPA both noted as low-risk for now.
 - Mid-Stage-2 positioning statement revision (2026-08-09): Job 2 in Section 3 (avoiding distraction, evidenced by tanman + a partner-suggested website-blocker idea) didn't cleanly fit the Key benefit clause as written. Key benefit broadened to add distraction-removal as an explicit secondary piece, deliberately kept behind "visible progress" in the sentence to reflect that it's single-sourced and not yet feature-tested, unlike the three-interview-deep visible-progress finding. Primary differentiation left unchanged — stays focused purely on visible progress.
 - Stage 2, Section 3 — Jobs-to-be-done and scenarios (2026-08-10): Job 1 (organizing a heavy assignment load, evidenced by Stev and tanman) and Job 2 (avoiding distraction, evidenced by tanman) each have a scenario with a "something goes wrong" branch, read back against the positioning statement. A third job (Canvas auto-carryover) was considered but judged unnecessary for coverage — noted as available for Stage 3 if needed. **All three sections of `ua5-stage-2-analysis.md` are now filled in.**
+- **Stage 2 — Analysis complete (2026-08-10).** Verified directly by the orchestrator: all three sections filled in (client/user distinction correctly marked N/A for self-idea path), positioning statement revisited and revised where Section 3 analysis contradicted it, both scenarios have a "goes wrong" branch, compliance/accessibility surfaced and answered. Two stale cross-references in `ua5-stage-2-analysis.md` (an unresolved-looking note that had actually been resolved, a "still to formalize" note for a job that was already built) corrected for consistency before advancing.
 
 ## Known gaps
 
@@ -57,4 +58,4 @@ Things the student and agent have flagged as not yet addressed. Carried forward 
 ## Last updated
 
 - **Date:** 2026-08-10
-- **By:** stage-2-analysis 
+- **By:** ua-orchestrator 
