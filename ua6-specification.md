@@ -32,22 +32,23 @@ A flat list of every screen the system needs.
 |---|--------|------------------------|--------------------------------|
 | 1 | Login (Google) | Let the student sign in with their Gmail account; also creates the account on first use. | Entry point — precedes both scenarios |
 | 2 | 2-Step Verification | Confirm identity with a second factor after Google login. | Entry point — precedes both scenarios |
-| 3 | Assignments (List / Board / Calendar views) | Show the student's assignment chunks and live, visible progress state — same data, three switchable views: a simple list, a board with columns arranged by due date and color-coded by assignment type, and a calendar. | 1.1 |
-| 4 | Add Assignment | Let the student enter a new assignment, its due date, and its type (for the Board view's color-coded columns). | 1.1 |
-| 5 | Assignments — Empty State | Show a new student (no assignments yet) how to get started. | Not from a scenario — standard state |
-| 6 | Behind-Schedule Adjustment | Show the student what got missed and let them redistribute it across remaining days. | 1.1 (the "goes wrong" branch) |
-| 7 | Focus Mode Setup | Let the student choose which sites to block and for how long. | 2.1 |
-| 8 | Focus Mode Active | Show the running block session (timer, blocked list) while it's in effect. | 2.1 |
-| 9 | Blocked Site Intercept | Show up in place of a site the student tries to visit while it's blocked. | 2.1 (the "goes wrong" branch) |
-| 10 | Focus Mode Complete | Confirm the session ended and let the student unblock manually if they want. | 2.1 |
-| 11 | Settings | House accessibility options (colorblind-friendly mode, reduced-motion/no-flashing mode) and account settings. | Not from a scenario — standard screen |
-| 12 | Error state | Shown when something that touches the network fails (login, saving an assignment). | Not from a scenario — standard state |
+| 3 | Home | Lightweight, "just today" landing screen the student sees right after logging in. | 1.1 |
+| 4 | Assignments (List / Board / Calendar views) | The full, detailed view of the student's assignments — same data as Home but everything, not just today, across three switchable views: a simple list, a board with columns arranged by due date and color-coded by assignment type, and a calendar. | 1.1 |
+| 5 | Add Assignment | Let the student enter a new assignment, its due date, and its type (for the Board view's color-coded columns). | 1.1 |
+| 6 | Assignments — Empty State | Show a new student (no assignments yet) how to get started. | Not from a scenario — standard state |
+| 7 | Behind-Schedule Adjustment | Show the student what got missed and let them redistribute it across remaining days. | 1.1 (the "goes wrong" branch) |
+| 8 | Focus Mode Setup | Let the student choose which sites to block and for how long. | 2.1 |
+| 9 | Focus Mode Active | Show the running block session (timer, blocked list) while it's in effect. | 2.1 |
+| 10 | Blocked Site Intercept | Show up in place of a site the student tries to visit while it's blocked. | 2.1 (the "goes wrong" branch) |
+| 11 | Focus Mode Complete | Confirm the session ended and let the student unblock manually if they want. | 2.1 |
+| 12 | Settings | House accessibility options (colorblind-friendly mode, reduced-motion/no-flashing mode) and account settings. | Not from a scenario — standard screen |
+| 13 | Error state | Shown when something that touches the network fails (login, saving an assignment). | Not from a scenario — standard state |
 
 Includes screens not surfaced by any scenario, named explicitly so they don't surprise the student during wireframing:
 
 - Login / authentication — **included** (Google login doubles as account creation on first use, so no separate signup screen)
 - Settings — **included**
-- Empty state — **included** (Home — Empty State)
+- Empty state — **included** (Assignments — Empty State)
 - Error state — **included**
 - Confirmation / success states for irreversible actions — **none yet**; nothing in the current scope deletes or irreversibly changes something. Revisit if that changes.
 
@@ -59,17 +60,21 @@ When the same screen appears in multiple scenarios, it's one entry. Those screen
 
 One subsection per screen. All five parts required.
 
-### [Screen 1 — name]
+### Home
 
-- **Purpose:** [one sentence]
-- **Who lands here:** [user type and how they got here — clicked X, redirected from Y, opened the bookmarked URL]
-- **What's shown:** [data and content that appears — not layout, content. What information does the user need to do what they came to do?]
-- **What they can do:** [each action, named]
-  - [action 1]
-  - [action 2]
+- **Purpose:** Give the student a fast, lightweight look at what's due today, right after opening the app.
+- **Who lands here:** Every student, right after login (and 2-Step Verification if triggered). This is the very first screen, every time they open the app.
+- **What's shown:** Today's date, today's assignment chunks (the pieces of bigger assignments scheduled for today), each chunk's checkbox state, and a "you're behind" banner if something from a previous day wasn't finished.
+- **What they can do:**
+  - Check off today's chunks
+  - Tap the "you're behind" banner (only shows when relevant)
+  - Go to the Assignments tab
+  - Go to Focus Mode
 - **Where each action goes:**
-  - [action 1] → [next screen | confirmation | state change | error]
-  - [action 2] → [destination]
+  - Check off a chunk → state change (marks it complete, updates progress)
+  - Tap "you're behind" banner → Behind-Schedule Adjustment screen
+  - Go to Assignments tab → Assignments screen
+  - Go to Focus Mode → Focus Mode Setup screen
 
 ---
 
