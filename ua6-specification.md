@@ -34,7 +34,7 @@ A flat list of every screen the system needs.
 | 2 | 2-Step Verification | Confirm identity with a second factor after Google login. | Entry point — precedes both scenarios |
 | 3 | Home | Lightweight, "just today" landing screen the student sees right after logging in. | 1.1 |
 | 4 | Assignments (List / Board / Calendar views) | The full, detailed view of the student's assignments — same data as Home but everything, not just today, across three switchable views: a simple list, a board with columns arranged by due date and color-coded by assignment type, and a calendar. | 1.1 |
-| 5 | Add Assignment | Let the student enter a new assignment, its due date, and its type (for the Board view's color-coded columns). | 1.1 |
+| 5 | Add/Edit Assignment | Let the student enter a new assignment (or edit an existing one) — name, due date, type/category, and sort placement. | 1.1 |
 | 6 | Assignments — Empty State | Show a new student (no assignments yet) how to get started. | Not from a scenario — standard state |
 | 7 | Behind-Schedule Adjustment | Show the student what got missed and let them redistribute it across remaining days. | 1.1 (the "goes wrong" branch) |
 | 8 | Focus Mode Setup | Let the student choose which sites to block and for how long. | 2.1 |
@@ -75,6 +75,24 @@ One subsection per screen. All five parts required.
   - Tap "you're behind" banner → Behind-Schedule Adjustment screen
   - Go to Assignments tab → Assignments screen
   - Go to Focus Mode → Focus Mode Setup screen
+
+---
+
+### Assignments (List / Board / Calendar views)
+
+- **Purpose:** Show the student's full set of assignments — not just today's — across three switchable views, and let them manage each one.
+- **Who lands here:** Comes from tapping the Assignments tab, usually from Home.
+- **What's shown:** All (or most) assignments in whichever view is active — each one's due date, type/color, and completion state — plus the view switcher itself (List/Board/Calendar).
+- **What they can do:**
+  - Switch between List/Board/Calendar views
+  - Check off an assignment as complete
+  - Tap edit on an assignment (to change details or sort/category placement)
+  - Add a new assignment
+- **Where each action goes:**
+  - Switch view → state change (same screen, different display)
+  - Check off → state change (marks complete, updates progress)
+  - Tap edit → Add/Edit Assignment screen, pre-filled
+  - Add new assignment → Add/Edit Assignment screen, blank
 
 ---
 
